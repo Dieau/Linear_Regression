@@ -7,7 +7,7 @@ An implementation of linear regression with gradient descent to predict car pric
 
 ## 📖 Project Summary
 
-This project implements a basic machine learning algorithm as defined in the subject:
+This project implements a basic machine learning algorithm:
 > "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E." - Tom M. Mitchell
 
 **Key Features:**
