@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Linear_Regression"
+version = "0.1.0"
+authors = [
+    {name = "Adel LAKHDAR", email = "alakhdar@student.42lyon.fr"},
+]
+description = "An introduction to Linear Algebra"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib==3.10.3",
+    "numpy==2.2.5",
+    "pandas==2.2.3",
+    "termcolor==3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+]
+
+[tool.setuptools]
+py-modules = ["training", "prediction"]
